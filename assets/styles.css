@@ -1,0 +1,97 @@
+html {
+  background: url("http://www.webdesigndev.com/wp-content/uploads/2015/02/Seamless-Polygon-Backgrounds-Vol.jpg");
+}
+
+.card {
+  font-family: Helvetica;
+  font-size: 30px;
+  text-align: center;
+  color: black;
+}
+
+.frontbg {
+  border: 1px 1px 1px 0px black;
+  background-color: #18adab;
+  border-radius: 7px;
+  color: #fff;
+  position: relative;
+  left: 0;
+}
+
+.hint {
+  font-size: 25px;
+  line-height: 5px;
+  padding-bottom: 40px;
+}
+
+.backbg {
+  position: relative;
+  top: -3px;
+  background-color: #fff;
+  padding: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 0px 0px 10px 10px;
+  color: #016ea6;
+  font-size: 28px;
+  text-align: left;
+}
+
+.defbg {
+  font-family: Raleway;
+  font-style: italic;
+  padding: 15px;
+  margin-left: -5px;
+  margin-top: -15px;
+  color: #18adab;
+  font-size: 15px;
+}
+
+.hidden {
+  visibility: hidden;
+  font-size: 0;
+}
+.hidden .cloze,
+.cloze .hidden {
+  visibility: visible;
+  background-color: white;
+  font-size: 0.8rem;
+}
+@-moz-document url-prefix() {
+  ruby {
+    position: relative;
+    display: inline-block;
+  }
+  ruby rt {
+    position: absolute;
+    display: block;
+    font-size: 0.5em;
+    left: -50%;
+    bottom: 115%;
+    width: 210%;
+    padding: 0;
+    text-align: center;
+    line-height: 1em;
+  }
+}
+.hidden .basemaru {
+  position: relative;
+}
+.hidden .basemaru:after {
+  content: "◯";
+  visibility: visible;
+  position: absolute;
+  left: 0;
+}
+.hidden .cloze .basemaru:after,
+.cloze .hidden .basemaru:after {
+  visibility: hidden;
+}
+div {
+  line-height: 2em;
+}
+.cloze_container .hidden {
+  visibility: visible;
+  background-color: white;
+}
