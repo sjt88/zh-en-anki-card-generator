@@ -2,7 +2,7 @@
 
 Automate Google translation & generation of Chinese/English Anki cards from a directory of mp3 files.
 
-[logo]: example.png "Example Card"
+![Alt text](example.png "Example")
 
 ## Motivations
 
